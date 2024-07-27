@@ -35,4 +35,4 @@ txt = parsed.get_text()
 all_href = [urlWasher(j.get('href')) for j in parsed.find_all('a')]
 cut_href = all_href[random.randint(0,len(all_href))]
 
-print(cut_href)
+print(all_href)
